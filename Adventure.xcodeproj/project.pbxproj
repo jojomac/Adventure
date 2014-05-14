@@ -21,6 +21,8 @@
 		DC7226491922C95C00619152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72262B1922C95C00619152 /* UIKit.framework */; };
 		DC7226511922C95D00619152 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC72264F1922C95D00619152 /* InfoPlist.strings */; };
 		DC7226531922C95D00619152 /* AdventureTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7226521922C95D00619152 /* AdventureTwoTests.m */; };
+		DC72265E1922CC0F00619152 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC72265D1922CC0E00619152 /* StoryViewController.m */; };
+		DC7226601922D52C00619152 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC72265F1922D52C00619152 /* CheckMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +36,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC7226241922C95C00619152 /* AdventureTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventureTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7226241922C95C00619152 /* Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7226271922C95C00619152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DC7226291922C95C00619152 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DC72262B1922C95C00619152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DC72262F1922C95C00619152 /* AdventureTwo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdventureTwo-Info.plist"; sourceTree = "<group>"; };
+		DC72262F1922C95C00619152 /* Adventure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adventure-Info.plist"; sourceTree = "<group>"; };
 		DC7226311922C95C00619152 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC7226331922C95C00619152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DC7226351922C95C00619152 /* AdventureTwo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdventureTwo-Prefix.pch"; sourceTree = "<group>"; };
+		DC7226351922C95C00619152 /* Adventure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adventure-Prefix.pch"; sourceTree = "<group>"; };
 		DC7226361922C95C00619152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DC7226371922C95C00619152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DC72263A1922C95C00619152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC72263C1922C95C00619152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DC72263D1922C95C00619152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DC72263F1922C95C00619152 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DC7226451922C95C00619152 /* AdventureTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventureTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7226451922C95C00619152 /* AdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7226461922C95C00619152 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DC72264E1922C95D00619152 /* AdventureTwoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdventureTwoTests-Info.plist"; sourceTree = "<group>"; };
+		DC72264E1922C95D00619152 /* AdventureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdventureTests-Info.plist"; sourceTree = "<group>"; };
 		DC7226501922C95D00619152 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC7226521922C95D00619152 /* AdventureTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdventureTwoTests.m; sourceTree = "<group>"; };
+		DC72265C1922CC0E00619152 /* StoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoryViewController.h; path = ../StoryViewController.h; sourceTree = "<group>"; };
+		DC72265D1922CC0E00619152 /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoryViewController.m; path = ../StoryViewController.m; sourceTree = "<group>"; };
+		DC72265F1922D52C00619152 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CheckMate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7226601922D52C00619152 /* CheckMate.framework in Frameworks */,
 				DC72262A1922C95C00619152 /* CoreGraphics.framework in Frameworks */,
 				DC72262C1922C95C00619152 /* UIKit.framework in Frameworks */,
 				DC7226281922C95C00619152 /* Foundation.framework in Frameworks */,
@@ -92,8 +98,8 @@
 		DC7226251922C95C00619152 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC7226241922C95C00619152 /* AdventureTwo.app */,
-				DC7226451922C95C00619152 /* AdventureTwoTests.xctest */,
+				DC7226241922C95C00619152 /* Adventure.app */,
+				DC7226451922C95C00619152 /* AdventureTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +107,7 @@
 		DC7226261922C95C00619152 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DC72265F1922D52C00619152 /* CheckMate.framework */,
 				DC7226271922C95C00619152 /* Foundation.framework */,
 				DC7226291922C95C00619152 /* CoreGraphics.framework */,
 				DC72262B1922C95C00619152 /* UIKit.framework */,
@@ -112,6 +119,8 @@
 		DC72262D1922C95C00619152 /* AdventureTwo */ = {
 			isa = PBXGroup;
 			children = (
+				DC72265D1922CC0E00619152 /* StoryViewController.m */,
+				DC72265C1922CC0E00619152 /* StoryViewController.h */,
 				DC7226361922C95C00619152 /* AppDelegate.h */,
 				DC7226371922C95C00619152 /* AppDelegate.m */,
 				DC7226391922C95C00619152 /* Main.storyboard */,
@@ -126,10 +135,10 @@
 		DC72262E1922C95C00619152 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC72262F1922C95C00619152 /* AdventureTwo-Info.plist */,
+				DC72262F1922C95C00619152 /* Adventure-Info.plist */,
 				DC7226301922C95C00619152 /* InfoPlist.strings */,
 				DC7226331922C95C00619152 /* main.m */,
-				DC7226351922C95C00619152 /* AdventureTwo-Prefix.pch */,
+				DC7226351922C95C00619152 /* Adventure-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +155,7 @@
 		DC72264D1922C95D00619152 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC72264E1922C95D00619152 /* AdventureTwoTests-Info.plist */,
+				DC72264E1922C95D00619152 /* AdventureTests-Info.plist */,
 				DC72264F1922C95D00619152 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC7226231922C95C00619152 /* AdventureTwo */ = {
+		DC7226231922C95C00619152 /* Adventure */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC7226561922C95D00619152 /* Build configuration list for PBXNativeTarget "AdventureTwo" */;
+			buildConfigurationList = DC7226561922C95D00619152 /* Build configuration list for PBXNativeTarget "Adventure" */;
 			buildPhases = (
 				DC7226201922C95C00619152 /* Sources */,
 				DC7226211922C95C00619152 /* Frameworks */,
@@ -167,14 +176,14 @@
 			);
 			dependencies = (
 			);
-			name = AdventureTwo;
+			name = Adventure;
 			productName = AdventureTwo;
-			productReference = DC7226241922C95C00619152 /* AdventureTwo.app */;
+			productReference = DC7226241922C95C00619152 /* Adventure.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DC7226441922C95C00619152 /* AdventureTwoTests */ = {
+		DC7226441922C95C00619152 /* AdventureTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC7226591922C95D00619152 /* Build configuration list for PBXNativeTarget "AdventureTwoTests" */;
+			buildConfigurationList = DC7226591922C95D00619152 /* Build configuration list for PBXNativeTarget "AdventureTests" */;
 			buildPhases = (
 				DC7226411922C95C00619152 /* Sources */,
 				DC7226421922C95C00619152 /* Frameworks */,
@@ -185,9 +194,9 @@
 			dependencies = (
 				DC72264B1922C95D00619152 /* PBXTargetDependency */,
 			);
-			name = AdventureTwoTests;
+			name = AdventureTests;
 			productName = AdventureTwoTests;
-			productReference = DC7226451922C95C00619152 /* AdventureTwoTests.xctest */;
+			productReference = DC7226451922C95C00619152 /* AdventureTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DC72261F1922C95C00619152 /* Build configuration list for PBXProject "AdventureTwo" */;
+			buildConfigurationList = DC72261F1922C95C00619152 /* Build configuration list for PBXProject "Adventure" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +226,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC7226231922C95C00619152 /* AdventureTwo */,
-				DC7226441922C95C00619152 /* AdventureTwoTests */,
+				DC7226231922C95C00619152 /* Adventure */,
+				DC7226441922C95C00619152 /* AdventureTests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC72265E1922CC0F00619152 /* StoryViewController.m in Sources */,
 				DC72263E1922C95C00619152 /* ViewController.m in Sources */,
 				DC7226381922C95C00619152 /* AppDelegate.m in Sources */,
 				DC7226341922C95C00619152 /* main.m in Sources */,
@@ -268,7 +278,7 @@
 /* Begin PBXTargetDependency section */
 		DC72264B1922C95D00619152 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC7226231922C95C00619152 /* AdventureTwo */;
+			target = DC7226231922C95C00619152 /* Adventure */;
 			targetProxy = DC72264A1922C95D00619152 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -376,10 +386,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AdventureTwo/AdventureTwo-Prefix.pch";
-				INFOPLIST_FILE = "AdventureTwo/AdventureTwo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AdventureTwo/Adventure-Prefix.pch";
+				INFOPLIST_FILE = "AdventureTwo/Adventure-Info.plist";
+				PRODUCT_NAME = Adventure;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +403,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AdventureTwo/AdventureTwo-Prefix.pch";
-				INFOPLIST_FILE = "AdventureTwo/AdventureTwo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "AdventureTwo/Adventure-Prefix.pch";
+				INFOPLIST_FILE = "AdventureTwo/Adventure-Info.plist";
+				PRODUCT_NAME = Adventure;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -412,8 +430,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "AdventureTwoTests/AdventureTwoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "AdventureTwoTests/AdventureTests-Info.plist";
+				PRODUCT_NAME = AdventureTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -430,8 +448,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdventureTwo/AdventureTwo-Prefix.pch";
-				INFOPLIST_FILE = "AdventureTwoTests/AdventureTwoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "AdventureTwoTests/AdventureTests-Info.plist";
+				PRODUCT_NAME = AdventureTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -440,7 +458,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC72261F1922C95C00619152 /* Build configuration list for PBXProject "AdventureTwo" */ = {
+		DC72261F1922C95C00619152 /* Build configuration list for PBXProject "Adventure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC7226541922C95D00619152 /* Debug */,
@@ -449,21 +467,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC7226561922C95D00619152 /* Build configuration list for PBXNativeTarget "AdventureTwo" */ = {
+		DC7226561922C95D00619152 /* Build configuration list for PBXNativeTarget "Adventure" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC7226571922C95D00619152 /* Debug */,
 				DC7226581922C95D00619152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		DC7226591922C95D00619152 /* Build configuration list for PBXNativeTarget "AdventureTwoTests" */ = {
+		DC7226591922C95D00619152 /* Build configuration list for PBXNativeTarget "AdventureTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC72265A1922C95D00619152 /* Debug */,
 				DC72265B1922C95D00619152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

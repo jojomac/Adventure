@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "StoryViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *clearBoxes;
+@property (weak, nonatomic) IBOutlet UIButton *eatBoxes;
 
 @end
 
@@ -20,10 +23,13 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(UIButton *)sender
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    StoryViewController *nextViewController = segue.destinationViewController;
+    nextViewController.title = sender.currentTitle;
+}
+-(IBAction)unwindFromViewController:(UIStoryboardSegue *)sender
+{
 }
 
 @end

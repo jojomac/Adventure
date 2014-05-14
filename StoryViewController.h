@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  StoryViewController.h
 //  AdventureTwo
 //
 //  Created by Joanne McNamee on 5/13/14.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface StoryViewController : UIViewController
 
 @end
